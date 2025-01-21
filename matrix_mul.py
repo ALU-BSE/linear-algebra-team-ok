@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# Load data
+# loading of data
 #data = pd.read_csv('path/to/data')
 
 # Example arrays
@@ -15,6 +15,7 @@ Ans = []
 # (300*200 + 500*100) as an example calculation
 
 for i in range(len(Prices)):
+# initializing value
     row_sum = 0
     for j in range(len(Prices[0])):
         # Multiply each element of Prices by the corresponding element in Array2 and sum the results
